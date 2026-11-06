@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SAPAuto V8</string>
+    <string name="app_desc">منظومة إدارة الالتزامات والملفات الضريبية</string>
+    <string name="server_url">https://sapauto.duckdns.org</string>
+    <string name="connecting">جاري الاتصال بالمنظومة...</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base AppTheme: fullscreen, no title bar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0d9488</item>
+        <item name="colorPrimaryDark">#0f766e</item>
+        <item name="colorAccent">#14b8a6</item>
+        <item name="android:windowBackground">@color/splashBg</item>
+        <item name="android:statusBarColor">#0d9488</item>
+    </style>
+
+    <!-- SplashTheme: dark fullscreen splash -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/splashBg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">#070b12</item>
+        <item name="android:navigationBarColor">#070b12</item>
+    </style>
+
+    <!-- MainTheme: for WebView host activity -->
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0d9488</item>
+        <item name="colorPrimaryDark">#0f766e</item>
+        <item name="colorAccent">#14b8a6</item>
+        <item name="android:windowBackground">#070b12</item>
+        <item name="android:statusBarColor">#0d9488</item>
+    </style>
+
+</resources>

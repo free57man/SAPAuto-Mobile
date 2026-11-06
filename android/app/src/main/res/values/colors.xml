@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splashBg">#070b12</color>
+    <color name="teal">#0d9488</color>
+    <color name="tealDark">#0f766e</color>
+    <color name="tealLight">#14b8a6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textSecondary">#9ca3af</color>
+</resources>
